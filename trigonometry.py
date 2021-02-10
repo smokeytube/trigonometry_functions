@@ -30,6 +30,59 @@ def sqrt(x):
 
 #---Trig Class---#
 
+'''
+Function keys:
+
+Pythagorean functions are in the form of
+
+Pythagorean theorm, side x, side y
+
+For example:
+PYTHhb = Pythagorean theorm, hypotenuse value, base value
+
+so the function would look like
+
+PYTHhb(13, 10) will return √69 or 8.3066...
+
+------------------------------
+
+All Side Solver functions are in the form of
+MATHFUNCTION, side unknown, sideknown
+
+For example:
+SINhb = Sine, unknown hypotenuse, known base
+
+The variable hyplega is shortened for Hypotenuse-leg angle, or angle A on the triangle in my program.
+Same with hypbasa. It is shortened for hypotenuse-base angle, or the bottom right C angle.
+
+SINhb(10, 70) where 10 is the base length and 70 is the Hypotenuse-leg angle will return 10.6417...
+
+------------------------------
+
+All Angle Solver functions are in the form of
+MATHFUNCTION, side x, side y
+
+For example:
+arcSINhb = Sine inverse, side x, side y
+
+
+arcSINhb(10, 13) where 10 is the base length and 13 is the hypotenuse length will return hyplega 50.2848...
+
+'''
+
+class PythagoreanSolver:
+
+	#---Extemely simple pythagorean functions---#
+	def PYTHhb(hyp, base):
+		return sqrt(hyp**2 - base**2)
+
+	def PYTHhl(hyp, leg):
+		return sqrt(hyp**2 - leg**2)
+
+	def PYTHbl(base, leg):
+		return sqrt(base**2 + leg**2)
+
+
 class SideSolver:
 
 	#---Hypotenuse Leg Angle---#
@@ -95,12 +148,3 @@ class AngleSolver:
 
 	def arcTANbl(leg, base):
 		return (inv_tan_deg(leg/base))
-
-
-
-
-
-
-class TriangleSolver:
-	pass
-
