@@ -86,43 +86,43 @@ class PythagoreanSolver:
 class SideSolver:
 
 	#---Hypotenuse Leg Angle---#
-	def SINhb(base, hyplega):
+	def aSINhb(base, hyplega):
 		return (base/(sin_deg(hyplega)))
 
-	def COShl(leg, hyplega):
+	def aCOShl(leg, hyplega):
 		return (leg/(cos_deg(hyplega)))
 
-	def TANbl(leg, hyplega):
+	def aTANbl(leg, hyplega):
 		return (leg*(tan_deg(hyplega)))
 
-	def SINbh(hyp, hyplega):
+	def aSINbh(hyp, hyplega):
 		return (hyp*(sin_deg(hyplega)))
 
-	def COSlh(hyp, hyplega):
+	def aCOSlh(hyp, hyplega):
 		return (hyp*(cos_deg(hyplega)))
 
-	def TANlb(base, hyplega):
+	def aTANlb(base, hyplega):
 		return (base/(tan_deg(hyplega)))
 
 
 
 	#---Hypotenuse Base Angle---#
-	def COShb(base, hypbasa):
+	def cCOShb(base, hypbasa):
 		return (base/(cos_deg(hypbasa)))
 
-	def SINhl(leg, hypbasa):
+	def cSINhl(leg, hypbasa):
 		return (leg/(sin_deg(hypbasa)))
 
-	def TANbl(leg, hypbasa):
+	def cTANbl(leg, hypbasa):
 		return (leg/(tan_deg(hypbasa)))
 
-	def COSbh(hyp, hypbasa):
+	def cCOSbh(hyp, hypbasa):
 		return (hyp*(cos_deg(hypbasa)))
 
-	def SINlh(hyp, hypbasa):
+	def cSINlh(hyp, hypbasa):
 		return (hyp*(sin_deg(hypbasa)))
 
-	def TANlb(base, hypbasa):
+	def cTANlb(base, hypbasa):
 		return (base*(tan_deg(hypbasa)))
 
 
