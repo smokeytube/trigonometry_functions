@@ -1,4 +1,4 @@
-from assets.dependencies.trigonometry import SideSolver as SS, AngleSolver as AA, PythagoreanSolver as PP
+from trigonometry import SideSolver as SS, AngleSolver as AA, PythagoreanSolver as PP
 
 class Solver:
     def TriangleSolver(hyp, leg, base, hyplega, hypbasa):
